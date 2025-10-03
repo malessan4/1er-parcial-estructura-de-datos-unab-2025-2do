@@ -15,5 +15,5 @@ def buscar_recursivo(lista_numeros, numero):
     # llamamos a la función con el resto de la lista (todos los elementos excepto el primero).
     return buscar_recursivo(lista_numeros[1:], numero)
 
-
+#Ejemplo de uso
 print(f"Buscando 25: {buscar_recursivo(lista_numeros, 25)}")
