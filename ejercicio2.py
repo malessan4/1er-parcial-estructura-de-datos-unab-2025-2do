@@ -36,7 +36,7 @@ class Inmobiliaria:
 
     
     def promocion_premium(self):
-        print("Propiedades Premium:")
+        print("Propiedades en promocion")
         for j in self.propiedades:
             if j.premium == True :
                 print(j)
@@ -48,7 +48,7 @@ class Inmobiliaria:
 inmobiliaria = Inmobiliaria("Inmobiliaria Central")
 p1 = Propiedad(1, "Calle 123", "Casa", 3, 150000, "Disponible", True)
 p2 = Propiedad(2, "Avenida 456", "Departamento", 2, 90000, "Vendido", False)   
-p3 = Propiedad(3, "Boulevard 789", "Casa", 4, 200000, "Disponible", True)
+p3 = Propiedad(3, "Boulevard 789", "Casa", 4, 200000, "Disponible", False)
 
 inmobiliaria.agregar_propiedad(p1)
 inmobiliaria.agregar_propiedad(p2)
